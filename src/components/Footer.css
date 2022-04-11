@@ -12,16 +12,19 @@
   
 }
 
-.img {
-    height: 40px;
+img.FullLogo{
+    height: 35px;
     width: 100%;
+    margin-top: 5px;
+    margin-left: 22px;
+    border-right: 1px solid #A9A9A9
     
 }
 
 .gradient-background {
-    background: linear-gradient(270deg, #E59AEF 3.37%, #B0F3D7 36.06%, #FAFAFA 68.75%);
+    background: linear-gradient(270deg, #E59AEF 3.37%, #B0F3D7 36.06%, #FAFAFA 70.75%);
     background-size: 180% 180%;
-    animation: gradient-animation 7s ease infinite;
+    animation: gradient-animation 10s ease infinite;
   }
 
 
@@ -63,7 +66,8 @@
   width: 35.19px;
   height: 32px;
   left: 1169px;
-  bottom: 19px;
+  bottom: 20px;
+  padding-right: 20px;
   }
   
  .Insta {
@@ -72,4 +76,19 @@
   height: 32px;
   left: 1230px;
   bottom: 20px;
+  padding-right: 20px;
+ }
+
+ .copy {
+    position: absolute;
+    width: 107px;
+    height: 24px;
+    left: 190px;
+    top: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: #696969;
  }

@@ -9,8 +9,11 @@ import './Footer.css';
 const footer = () => {
   return (
     <div className='Footer gradient-background'>   
-     
-     <a href ="" > <img  src = {FullLogo} height='40' width='100%' ></img></a>
+    
+     <a href ="" > <img className='FullLogo' src = {FullLogo}  ></img> 
+     </a>
+     <div className='copy'> <span>All right reserved</span> </div>
+    
     <div className='MenuF'>  
         <div className='MenuFLink' href ="" >About</div>
         <div className='MenuFLink' href ="" >Shop</div>
