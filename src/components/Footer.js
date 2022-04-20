@@ -1,7 +1,9 @@
 import React from 'react';
 
 import FullLogo from '../assets/FullLogo.png';
-import { BsFacebook, BsInstagram } from "react-icons/bs";
+import { BsFacebook, BsInstagram} from "react-icons/bs";
+
+
 import { keyframes } from 'styled-components';
 import './Footer.css';
 
@@ -22,14 +24,17 @@ const footer = () => {
        
         
     </div>
+
 <div className='Section' >
 <BsFacebook  />
-</div> 
+</div>
+
 <div className='Insta'>
 <BsInstagram />
-</div>
-    </div>
-    
+</div>  
+ 
+ </div>
+
   )
 }
 

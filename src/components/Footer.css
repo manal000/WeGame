@@ -1,6 +1,6 @@
 .Footer {
 
-  position: absolute;
+
   bottom: 0px;
   left : 0px;
   right: 0px;
@@ -15,16 +15,16 @@
 img.FullLogo{
     height: 35px;
     width: 100%;
-    margin-top: 5px;
+    margin-top: 8px;
     margin-left: 22px;
     border-right: 1px solid #A9A9A9
     
 }
 
 .gradient-background {
-    background: linear-gradient(270deg, #E59AEF 3.37%, #B0F3D7 36.06%, #FAFAFA 70.75%);
+    background: linear-gradient(270deg, #E287EE 11.03%, #A7F3D3 24.31%, #C9F3E1 41.17%, #FAFAFA 57%);
     background-size: 180% 180%;
-    animation: gradient-animation 10s ease infinite;
+    animation: gradient-animation 7s ease infinite;
   }
 
 
@@ -56,35 +56,40 @@ img.FullLogo{
   padding: 1rem 1rem;
   position: center;
   font-size: 13px;
-  
-  margin-left: 10%;
+ font-weight: 620;
+  margin-left: 15%;
+ 
  }
   
   
   .Section  {
-  position: absolute;
+ position: absolute;
   width: 35.19px;
   height: 32px;
+  
   left: 1169px;
-  bottom: 20px;
+  padding-top: 10px;
   padding-right: 20px;
+  font-size: 20px;
   }
   
- .Insta {
+.Insta {
   position: absolute;
   width: 35.19px;
   height: 32px;
   left: 1230px;
-  bottom: 20px;
+  padding-top: 10px;
   padding-right: 20px;
+  font-size: 20px;
  }
 
  .copy {
-    position: absolute;
+ position: absolute;
     width: 107px;
     height: 24px;
-    left: 190px;
-    top: 30px;
+    height: 24px;
+left: 195px;
+padding-top: 19px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;

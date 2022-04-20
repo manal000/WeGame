@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+
 import Navbar from './Navbar';
 import Footer from './Footer';
 import './Main.css';
@@ -11,6 +11,8 @@ const Main = () =>  {
      
         
         <Navbar />
+          <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+          <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
         <Footer />
         
       

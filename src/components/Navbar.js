@@ -6,11 +6,12 @@ import { IoChatbubblesOutline } from "react-icons/io5";
 import { IoMdNotificationsOutline } from "react-icons/io";
 import { AiOutlineHeart, AiOutlineShoppingCart } from "react-icons/ai";
 import FullLogo from '../assets/FullLogo.png';
+import SearchBar from './SearchBar';
 const Navbar = () => {
   return (
     <div className="Nav">
         <a href ="" > <img className='Logo' src = {FullLogo} height='60' width='100%' ></img></a>
-        
+        <div><SearchBar/></div>
     <div className="Menu">
       
         <div className="MenuLink" href ="" ><IoChatbubblesOutline size="23px" /></div>
@@ -20,7 +21,7 @@ const Navbar = () => {
         
           <div className="Welcome"> 
             
-          <span>Bienvenue</span>
+          <span >Bienvenue</span>
             <span>
             <strong>USER NAME</strong>
             </span>
